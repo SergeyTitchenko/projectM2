@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.visibleText {
+    font-family: 'Roboto', sans-serif;
+}
+button {
+ width: 100%;
+ background-color: rgb(49, 194, 4);
+ color: white;
+ padding: 5px;
+ border: 1px solid white;
+ border-radius: 10px;
+}
+main {
+    max-width: 35%;
+    margin-top: 30px;
+}
