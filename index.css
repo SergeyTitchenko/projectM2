@@ -19,3 +19,8 @@ main {
     max-width: 35%;
     margin-top: 30px;
 }
+span {
+    color: darkred;
+    text-align: center;
+    display: none;
+}
