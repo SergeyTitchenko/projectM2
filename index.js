@@ -18,7 +18,7 @@ function calculateTotalAmount() {
     firsAmount <= 0) {
     console.log('Nan');
     document.getElementById('miss').style.display = 'Block';
-    // return NaN;
+  
   }
   function summary(rfirsAmount, rmounthAmount, rpercent, rdays) {
 
