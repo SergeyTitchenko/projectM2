@@ -19,7 +19,6 @@ function calculateTotalAmount(firsAmount, mounthAmount, percent, days) {
     firsAmount <= 0) {
     console.error('Ошибка');
     document.getElementById('miss').style.display = 'Block';
-    return NaN;
   } else {
     summary(firsAmount, mounthAmount, percent, days);
   }
@@ -29,5 +28,6 @@ function summary(rfirsAmount, rmounthAmount, rpercent, rdays) {
   totalNumber = (rfirsAmount + rmounthAmount) * (1 + (rpercent / 100 / 12) * rdays) + rmounthAmount * rdays;
 
   alert('Сумма на момент выплаты составит ' + Math.trunc(totalNumber) + ' AZN')
+  return totalNumber;
 }
 button.addEventListener('click', calculateTotalAmount);
